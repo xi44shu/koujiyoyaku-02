@@ -1,0 +1,2 @@
+class PublicUtility < ApplicationRecord
+end

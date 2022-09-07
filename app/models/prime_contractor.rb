@@ -1,0 +1,2 @@
+class PrimeContractor < ApplicationRecord
+end
