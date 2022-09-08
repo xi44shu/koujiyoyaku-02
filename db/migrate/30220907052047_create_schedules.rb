@@ -13,7 +13,7 @@ class CreateSchedules < ActiveRecord::Migration[6.0]
       t.references :prime_contractor,             foreign_key: true
       t.references :detail,                       foreign_key: true
       t.references :public_utility,               foreign_key: true
-      t.references :s_comment,                    foreign_key: true
+      # t.references :s_comment,                    foreign_key: true
       t.text :content      
       
       

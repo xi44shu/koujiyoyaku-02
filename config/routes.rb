@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
   root to: 'schedules#index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :trading_companies
+  resources :prime_contractors
+  resources :public_utilities
+  resources :teams
+  resources :details
 end
