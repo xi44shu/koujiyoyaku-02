@@ -1,0 +1,6 @@
+
+<%= form_with model: @detail, url:details_path, local: true do |f| %>
+<%= f.text_field :pipe_type, placeholder:"管種（CVP)", maxlength:"40" %>
+<%= f.text_field :pipe_size, placeholder:"サイズ（75100150)", maxlength:"40" %>
+<%= f.submit "登録する" %>
+<% end %>
