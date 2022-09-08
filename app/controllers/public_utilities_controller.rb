@@ -19,7 +19,7 @@ class PublicUtilitiesController < ApplicationController
   private
 
   def publicUtility_params
-    params.permit(:pu_name )
+    params.require(:publicUtility).permit(:pu_name )
   end
 
 end
