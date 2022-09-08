@@ -1,0 +1,5 @@
+
+<%= form_with model: @public_utility, url:public_utilities_path, local: true do |f| %>
+<%= f.text_field :pu_name, placeholder:"事業体名（ 40文字まで)", maxlength:"40" %>
+<%= f.submit "登録する" %>
+<% end %>
